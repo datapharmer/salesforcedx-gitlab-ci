@@ -1,4 +1,4 @@
-FROM simkim/salesforcedx
+FROM datapharmer/salesforcedx
 VOLUME /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y \
