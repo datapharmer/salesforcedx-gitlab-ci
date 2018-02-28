@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 # sfdx environment
-ENV SFDX_AUTOUPDATE_DISABLE true
+ENV SFDX_AUTOUPDATE_DISABLE false
 ENV SFDX_USE_GENERIC_UNIX_KEYCHAIN true
 ENV SFDX_DOMAIN_RETRY 300
 # build environment
